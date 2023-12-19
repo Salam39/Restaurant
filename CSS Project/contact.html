@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      /* For body only */
+      body {
+        background-image: url("images/mathyas-kurmann-jnHQsTfq2Og-unsplash.jpg");
+        background-size: 80rem;
+      }
+
+      /* For all input tags that i used fror creating a form for about section */
+      .abt {
+        margin-left: 490px;
+        margin-top: 170px;
+      }
+      /* For home button that i used a anchor tag inside a button */
+      Button:hover {
+        background-color: rgb(218, 246, 104);
+        transform: scale(1.1);
+        z-index: 1;
+      }
+      a.btn2 {
+        text-decoration: none;
+        font-family: font-family cursive;
+      }
+      /* For all h2 tags that i used */
+      h2 {
+        text-align: center;
+        width: 1250px;
+        height: 30px;
+        border: solid;
+        margin-top: -8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Contact Us</h2>
+    <button><a class="btn2" href="home.html">Home</a></button>
+    <button><a class="btn2" href="menu.html">Menu</a></button>
+    <button><a class="btn2" href="contact.html">Contact</a></button>
+    <button><a class="btn2" href="about.html">About</a></button>
+    
+    <div class="abt">
+      <input type="Name" placeholder="Name" style="width: 350px" />
+      <br /><br />
+      <input type="Email" placeholder="Email" style="width: 350px" />
+      <br /><br />
+      <input type="tel" placeholder="Contact Number" style="width: 350px" />
+      <br /><br />
+      <textarea
+        name="Message"
+        placeholder="Message"
+        cols="20"
+        rows="5"
+        style="width: 350px"
+      ></textarea>
+      <br />
+      <button style="width: 350px">SUBMIT</button>
+    </div>
+  </body>
+</html>
